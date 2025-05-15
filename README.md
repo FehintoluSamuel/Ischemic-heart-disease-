@@ -114,6 +114,9 @@ The app will launch in your browser.
 > 💡 **Decision Tree** was the most effective model overall, offering strong precision and interpretability.
 
 ---
+## 🚀 Live Dashboard
+
+> **[Click here to view the live Streamlit app](https://mqtij9hki8hcf5luxjgv4q.streamlit.app/)**  
 
 ## 🛠️ Customization
 
