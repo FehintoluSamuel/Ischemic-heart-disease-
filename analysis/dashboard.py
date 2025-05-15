@@ -9,10 +9,10 @@ st.set_page_config(page_title="Ischemic Heart Disease Dashboard", layout="wide")
 st.title("Ischemic Heart Disease Statistics Dashboard")
 
 # Load datasets
-df1 = pd.read_csv(r'C:\\Users\\fehin\\schlscrape_project\\personal_project\\heart_disease\\analysis\\rough_data\\Ischemic heart disease deaths Nigeria .csv')
-df2 = pd.read_csv(r'C:\\Users\\fehin\\schlscrape_project\\personal_project\\heart_disease\\analysis\\rough_data\\cleaned_data_df2.csv')
-df3 = pd.read_csv(r'C:\\Users\\fehin\\schlscrape_project\\personal_project\\heart_disease\\analysis\\cleaned_data_df3.csv')
-df4 = pd.read_csv(r'C:\\Users\\fehin\\schlscrape_project\\personal_project\\heart_disease\\analysis\\rough_data\\cleaned_data_df4.csv')
+df1 = pd.read_csv(r'\analysis\\rough_data\\Ischemic heart disease deaths Nigeria .csv')
+df2 = pd.read_csv(r'\analysis\\rough_data\\cleaned_data_df2.csv')
+df3 = pd.read_csv(r'\analysis\\cleaned_data_df3.csv')
+df4 = pd.read_csv(r'\analysis\\rough_data\\cleaned_data_df4.csv')
 
 # Plot 1 - Bar chart of deaths per year
 df1_agg = df1.groupby('Year')['No. of deaths'].sum().reset_index()
