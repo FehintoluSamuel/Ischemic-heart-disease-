@@ -1,0 +1,40 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Ignore data files (optional: track only clean ones)
+analysis/rough_data/
+!analysis/cleaned_data/cleaned_data_df1.csv
+!analysis/cleaned_data/cleaned_data_df2.csv
+!analysis/cleaned_data/cleaned_data_df3.csv
+!analysis/cleaned_data/cleaned_data_df4.csv
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VSCode and editor-specific settings
+.vscode/
+.idea/
+
+# Streamlit logs
+.streamlit/
+logs/
+
+# Ignore backup and log files
+*.bak
+*.log
+
+# Ignore images if not needed
+*.jpeg
+*.jpg
+*.png
