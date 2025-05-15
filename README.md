@@ -5,7 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Enabled-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![Dashboard Screenshot](/analysis/IHD_dashboard.jpeg)
+
 ---
 
 ## 📊 Overview
@@ -46,7 +46,7 @@ It includes:
 
 ## 🖼️ Dashboard Preview
 
-> *Add your dashboard screenshot above to showcase it visually*
+> ![Dashboard Screenshot](/analysis/IHD_dashboard.jpeg)
 
 ---
 
